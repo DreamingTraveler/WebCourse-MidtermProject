@@ -1,0 +1,85 @@
+body{
+  background-image: url("image/background2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 1260pt;
+}
+
+@font-face {
+  font-family: Balsamiq SansBoldItalic;
+  src: url(fonts/BalsamiqSansBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Balsamiq Sans;
+  src: url(fonts/BalsamiqSansRegular.ttf);
+}
+
+h1{
+  text-align: center;
+  font-family: Balsamiq SansBoldItalic, sans-serif;
+}
+
+#taipei{
+  margin: 20pt 0 100pt 610pt;
+  float: left;
+}
+
+#tech{
+  margin: 20pt 450pt 0 0;
+  float: right;
+}
+
+.logo{
+  width: 50pt;
+  height: 50pt;
+  position: absolute;
+  top: 20pt;
+  left: 700pt;
+  float: left;
+}
+
+.title{
+  height: 50pt;
+  font-size: 32pt;
+  margin: 0 0 0 170pt;
+  padding: 0 100pt 0 100pt;
+  content:"";
+	display: block;
+	clear: both;
+}
+
+nav{
+  content:"";
+	display: block;
+	clear: both;
+}
+
+ul{
+  font-size: 20pt;
+  position: relative;
+  top: 280pt;
+}
+
+li{
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: Balsamiq SansBoldItalic, sans-serif;
+}
+
+#bt1{
+  margin: 0 0 0 90pt;
+}
+
+#bt2{
+  margin: 0 0 0 400pt;
+}
+
+#bt3{
+  margin: 0 0 0 300pt;
+}
