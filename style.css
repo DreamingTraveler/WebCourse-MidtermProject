@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("image/background2.png");
+  background-image: url("image/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -45,6 +45,7 @@ body{
   margin: 60px 150px 0 0;
   font-size: 29px;
   font-family: Balsamiq Sans, sans-serif;
+  color: rgb(200, 230, 230)
 }
 
 nav{
@@ -62,6 +63,7 @@ nav{
 
 li{
   list-style-type: none;
+  text-align: center;
   margin: 70px 10px 30px 0;
   color: white;
   background-color: rgb(38, 176, 130);
