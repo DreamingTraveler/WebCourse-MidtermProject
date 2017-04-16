@@ -1,11 +1,13 @@
+
 body{
-  background-image: url("image/background2.jpeg");
+  background-image: url("image/background2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  box-sizing: border-box;
-  width: 1260pt;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 @font-face {
@@ -18,68 +20,85 @@ body{
   src: url(fonts/BalsamiqSansRegular.ttf);
 }
 
-h1{
-  text-align: center;
-  font-family: Balsamiq SansBoldItalic, sans-serif;
+.container{
+  min-height: 100%;
+  position: relative;
 }
 
-#taipei{
-  margin: 20pt 0 100pt 610pt;
-  float: left;
-}
-
-#tech{
-  margin: 20pt 450pt 0 0;
-  float: right;
+.main-area{
+  width: 1260px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 0 80px 150px;
 }
 
 .logo{
-  width: 50pt;
-  height: 50pt;
-  position: absolute;
-  top: 20pt;
-  left: 700pt;
+  width: 15%;
+  height: 15%;
   float: left;
+  margin: 30px 0 0 160px;
 }
 
 .title{
-  height: 50pt;
-  font-size: 32pt;
-  margin: 0 0 0 170pt;
-  padding: 0 100pt 0 100pt;
-  content:"";
-	display: block;
-	clear: both;
+  width: 550px;
+  float: right;
+  margin: 60px 150px 0 0;
+  font-size: 29px;
+  font-family: Balsamiq Sans, sans-serif;
 }
 
 nav{
+  /*background-image: url("image/NavBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
   content:"";
 	display: block;
 	clear: both;
-}
-
-ul{
-  font-size: 20pt;
-  position: relative;
-  top: 280pt;
+  font-family: Balsamiq Sans, sans-serif;
+  margin: 30px 0 0 80px;
+  float: left;
 }
 
 li{
-  display: inline-block;
+  list-style-type: none;
+  margin: 70px 10px 30px 0;
+  color: white;
+  background-color: rgb(38, 176, 130);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+a{
   text-decoration: none;
-  text-align: center;
-  color: black;
-  font-family: Balsamiq SansBoldItalic, sans-serif;
 }
 
-#bt1{
-  margin: 0 0 0 90pt;
+.image{
+  width: 55%;
+  height: 55%;
+  float: right;
+  margin: 50px 100px 0px 0;
+  padding-top: 20px;
 }
 
-#bt2{
-  margin: 0 0 0 400pt;
+footer{
+  content:"";
+	display: block;
+	clear: both;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 130px;
+  background-color: #a2c4c9;
 }
 
-#bt3{
-  margin: 0 0 0 300pt;
+footer p{
+  font-family: Balsamiq Sans, sans-serif;
+  padding-top: 20px;
+  padding-left: 300px;
 }
+/*.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}*/
