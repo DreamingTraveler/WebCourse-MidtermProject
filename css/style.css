@@ -22,7 +22,7 @@ body{
 }
 
 .container{
-  min-height: 100%;
+  /*min-height: 100%;*/
   position: relative;
 }
 
@@ -108,7 +108,7 @@ footer{
   position: relative;
   top: 95px;
   background-color: rgb(9, 46, 68);
-padding-left: 500px;
+
 }
 
 footer p{
@@ -116,6 +116,61 @@ footer p{
   color: rgb(209, 240, 236);
   padding-top: 20px;
 
+}
+@media (max-width: 768px) {
+  .main-area {
+    width: 700px;
+  }
+  .logo{
+    width: 20%;
+    height: 20%;
+    margin-left: 150px;
+  }
+  ul{
+    float: none;
+  }
+  li{
+    display: inline-block;
+  }
+  .image{
+    float: none;
+  }
+  footer {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-area {
+    width: 750px;
+  }
+  li{
+    display: inline-block;
+  }
+  footer {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-area {
+    width: 970px;
+  }
+  li{
+    display: block;
+  }
+  footer {
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-area {
+    width: 1260px;
+  }
+  footer {
+    padding-left: 500px;
+  }
 }
 /*.clear:after {
 	content:"";
