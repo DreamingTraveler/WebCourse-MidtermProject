@@ -1,0 +1,53 @@
+
+.container-fluid{
+  background-color: rgb(26, 8, 41);
+}
+
+.logo{
+  margin-top: 20px;
+}
+
+.taipei-tech{
+  font-size: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.dept{
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 30px;
+  margin-left: 350px;
+  color: white;
+  padding: 30px 0;
+  background-color: rgb(53, 39, 108);
+  border-radius: 20px;
+  width: 70%;
+}
+
+.nav{
+  width: 35%;
+  background-color: rgb(8, 17, 99);
+}
+
+.dropdown-toggle{
+  font-size: 26px;
+  padding-left: 120px;
+}
+
+ul{
+  margin-left: 600px;
+}
+
+.image1{
+  width: 60%;
+  margin-left: 430px;
+}
+
+.subtitle{
+  color: white;
+}
+
+p{
+  color: white;
+}
