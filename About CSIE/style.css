@@ -61,6 +61,10 @@
   color: white;
 }
 
+.dropdown-toggle:hover{
+  background-color: black;
+}
+
 .dropdown-menu{
   width: 100%;
 }
@@ -110,6 +114,7 @@ article{
 
 p{
   font-size: 3.0rem;
+  font-weight: bold;
 }
 
 .first-paragraph{
