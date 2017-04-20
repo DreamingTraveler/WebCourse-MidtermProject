@@ -86,6 +86,7 @@
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 80px;
+  height: auto;
   /*background-repeat: no-repeat;*/
 }
 
