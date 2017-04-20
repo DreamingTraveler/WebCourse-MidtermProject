@@ -21,6 +21,11 @@ body{
   src: url(../fonts/BalsamiqSansRegular.ttf);
 }
 
+@font-face {
+  font-family: Cooper;
+  src: url(../fonts/COOPBL.TTF);
+}
+
 .container{
   /*min-height: 100%;*/
   position: relative;
@@ -37,16 +42,18 @@ body{
   width: 15%;
   height: 15%;
   float: left;
-  margin: 30px 130px 0 30px;
+  margin: 50px 50px 0 30px;
+  background-color: rgba(227, 223, 207, 0.42);
+  border-radius: 20px;
 }
 
 .title{
-  width: 550px;
+  width: 800px;
   float: right;
-  margin: 60px 150px 0 0;
-  font-size: 29px;
-  font-family: Balsamiq Sans, sans-serif;
-  color: rgb(200, 230, 230)
+  margin: 60px 0px 0 0;
+  font-size: 38px;
+  font-family: Cooper, sans-serif;
+  color: rgb(200, 230, 230);
 }
 
 nav{
@@ -87,15 +94,37 @@ li:hover, li:focus, li:active {
   transform: scale(1.2);
 }
 
-a{
+.button {
+  width: 20%;
+  font-family: Cooper;
+  text-align: center;
   text-decoration: none;
+  color: black;
+  background-color: rgba(235, 236, 182, 0.44);
+  margin: auto;
+  display: block;
+  padding: 20px;
+  border-radius: 100px/70px;
+  position: absolute;
+  left: 43%;
+  top: 50%;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.button:hover{
+  text-decoration: none;
+  color: rgba(3, 19, 8, 0.75);
+  box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .image{
-  width: 55%;
-  height: 55%;
+  width: 100%;
   float: right;
-  margin: 50px 100px 0px 0;
+  margin: auto;
+  display: block;
   padding-top: 20px;
 }
 
@@ -104,9 +133,7 @@ footer{
 	display: block;
 	clear: both;
   width: 100%;
-  height: 70px;
-  position: relative;
-  top: 95px;
+  height: 100px;
   background-color: rgb(9, 46, 68);
 
 }
@@ -114,7 +141,8 @@ footer{
 footer p{
   font-family: Balsamiq Sans, sans-serif;
   color: rgb(209, 240, 236);
-  padding-top: 20px;
+  font-size: 20px;
+  padding-top: 33px;
 
 }
 @media (max-width: 768px) {
