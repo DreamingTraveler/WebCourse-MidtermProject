@@ -25,51 +25,81 @@
   background-color: rgba(255, 255, 255, 0.59);
   border-radius: 88px;
   padding: 13px;
+  animation-name: change-BGcolor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change-BGcolor {
+  0%  {background-color: rgba(225, 228, 82, 0.45);}
+  50%  {background-color: rgba(219, 226, 89, 0.91);}
+  100%  {background-color: rgba(225, 228, 82, 0.45);}
 }
 
 .taipei-tech{
-  font-size: 80px;
+  font-size: 87px;
   color: white;
   margin-top: 50px;
   margin-left: 20px;
+  font-weight: bold;
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .dept{
   text-align: center;
   display: block;
   font-size: 50px;
+  font-weight: bold;
   margin: auto;
   color: white;
   padding: 30px 30px;
-  background-color: rgba(38, 91, 134, 0.34);
-  border-radius: 20px;
+  /*background-color: rgba(38, 91, 134, 0.34);
+  border-radius: 20px;*/
   width: 70%;
+  animation-name: change-color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes change-color {
+  0%  {color: rgba(198, 235, 229, 0.91);}
+  20% {color: rgba(129, 223, 232, 0.79);}
+  40%  {color rgba(77, 174, 209, 0.83);}
+  60% {color: rgba(129, 223, 232, 0.79);}
+  80%  {color: rgba(172, 231, 225, 0.93);}
+  100%  {color: rgba(198, 235, 229, 0.91);}
+}
+
 
 .nav{
   display: block;
   margin: auto;
-  width: 50%;
+  width: 55%;
   margin-top: 20px;
   background-color: rgba(147, 218, 216, 0.24);
   border-radius: 10px;
   text-align: center;
 }
 
+.dropdown{
+  padding-left: 80px;
+}
+
 .dropdown-toggle{
-  margin-left: 60px;
+  margin-left: 10%;
   font-size: 36px;
   color: white;
 }
 
 .dropdown-toggle:hover{
   color: blue;
-  background-color: red;
 }
 
 .dropdown-menu{
-  width: 80%;
-  margin-left: 50px;
+  width: 70%;
+  margin-left: 100px !important;
 }
 
 .dropdown-menu li{
@@ -119,10 +149,15 @@ article{
 p{
   font-size: 3.0rem;
   font-weight: bold;
+  letter-spacing: 0.2rem;
 }
 
-.first-paragraph{
-  text-indent: 1em;
+.content-block{
+  font-size: 58px;
+  background-color: rgba(255,255,255,0.68);
+  text-align: center;
+  border-radius: 20px;
+  color: rgba(120, 48, 25, 0.68);
 }
 
 footer{
@@ -135,6 +170,7 @@ footer{
 footer p{
   padding-top: 20px;
   padding-left: 20%;
+
 }
 
 /*@media (max-width: 1550px){
