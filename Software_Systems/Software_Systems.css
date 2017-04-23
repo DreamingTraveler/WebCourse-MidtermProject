@@ -84,17 +84,12 @@
 }
 
 .dropdown{
-  position:relative;
-  cursor: pointer;
-}
-
-.dropdown:focus{
-  outline: none !important;
+  padding-left: 80px;
 }
 
 .dropdown-toggle{
   margin-left: 10%;
-  font-size: 38px;
+  font-size: 36px;
   color: white;
 }
 
@@ -103,22 +98,13 @@
 }
 
 .dropdown-menu{
-  display: block;
-  width: 90%;
-  margin-left: 10% !important;
+  width: 70%;
+  margin-left: 100px !important;
 }
 
 .dropdown-menu li{
-  font-size: 38px;
+  font-size: 28px;
   text-align: center;
-}
-
-.dropdown > .dropdown-toggle > .dropdown-menu{
-  display: none;
-}
-
-.dropdown > .dropdown-toggle:focus > .dropdown-menu{
-  display: none;
 }
 
 .background-img{
