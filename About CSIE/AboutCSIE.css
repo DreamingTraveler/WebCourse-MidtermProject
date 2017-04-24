@@ -89,7 +89,7 @@
 
 .dropdown-toggle{
   margin-left: 10%;
-  font-size: 36px;
+  font-size: 36px !important;
   color: white;
 }
 
